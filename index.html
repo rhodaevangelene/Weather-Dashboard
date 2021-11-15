@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<link rel="stylesheet" href="./assets/css/style.css">
+    <title>Weather Dashboard</title>
+</head>
+<body>
+    <header>Weather Dashboard</header>
+    <main class="container-fluid">
+        <section class="row">
+            <div id="search" class="col-3">
+                <div id="top">
+                    <div>Search for a City:</div>
+                    <input type="text" class="form-control" placeholder="Enter a City Here">
+                    <button class="btn btn-primary" onclick="searchCoordsFunction()">Search</button>
+                </div>
+                <div id="bottom">
+                </div>
+            </div>
 
+            <div id="display" class="col-9">
+                <div id="today">
+                </div>
+                <div class="">
+                    <h4>5 Day Forecast:</h4>
+                </div>
+                <div id="forecast" class="d-flex justify-content-between gap-3">
+                    <div class="day1"></div>
+                    <div class="day2"></div>
+                    <div class="day3"></div>
+                    <div class="day4"></div>
+                    <div class="day5"></div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer><center>Weather Dashboard @ 2021 </center></footer>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
