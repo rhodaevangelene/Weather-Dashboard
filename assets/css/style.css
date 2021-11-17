@@ -1,0 +1,101 @@
+body {
+    height: 80vh;
+    width: 100vw;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    background-color: rgb(108, 108, 110);
+    color: white;
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+
+main {
+    padding: .9rem;
+    height: 100%;
+    border: solid rgb(94, 94, 94) 1px;
+}
+
+section {
+    height: 100%;
+}
+
+#search {
+    background-color: rgba(0, 0, 0, 0.075);
+}
+
+#search *{
+    width: 100%;
+    margin: 0.5rem 0;
+    align-content: space-between;
+}
+
+#top {
+    height: 35%;
+    background-color: rgba(0, 0, 0, 0.075);
+
+}
+#top input {
+    padding: .3rem;
+}
+#top div {
+    font-size: 2rem;
+}
+
+#bottom {
+    height: 60%;
+    background-color: rgba(0, 0, 0, 0.075);
+}
+
+#display * {
+    width: 100%;
+}
+#display h4 {
+    padding-top: 0.5rem;
+    font-weight: 400;
+}
+#today {
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 1px black;
+    height: 40%;
+    padding: 0.5rem;
+    align-content: space-between;
+}
+#today div{
+    width: 100%;
+}
+#today h2 {
+    width: fit-content;
+}
+#today img {
+    display: inline-block;
+    height: 4rem;
+    width: auto;
+    position: relative;
+    top: -5px;
+}
+
+#forecast{
+    height: 50%;
+    margin: 0;
+}
+#forecast div {
+    display: flex;
+    flex-wrap: wrap;
+    height: 70%;
+    background-color: rgb(84, 84, 87);
+    color: white;
+    height: min-content;
+    padding: .2rem;
+    justify-content: center;
+}
+
+#forecast div img {
+    height: 4rem;
+    width: auto;
+    justify-self: center;
+}
